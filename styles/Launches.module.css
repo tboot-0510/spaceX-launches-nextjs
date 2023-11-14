@@ -1,0 +1,36 @@
+.launchCard {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.launchHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 80%;
+  margin-right: 12px;
+}
+
+.item {
+  flex: 1;
+  margin: 0 8px;
+}
+
+.detailsButton {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 25px;
+  border: 1px solid black;
+}
